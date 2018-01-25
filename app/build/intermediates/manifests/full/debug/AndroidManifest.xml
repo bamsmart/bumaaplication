@@ -37,49 +37,38 @@
         </activity>
         <activity
             android:name="com.buma.designapp.ListActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="com.buma.designapp.GreenCardInput"
-            android:label="@string/title_activity_input" >
-        </activity>
+            android:label="@string/title_activity_input" />
         <activity
             android:name="com.buma.designapp.GreenCardDataActivity"
-            android:label="@string/title_activity_input" >
-        </activity>
+            android:label="@string/title_activity_input" />
         <activity
             android:name="com.buma.designapp.MenuActivity"
-            android:label="@string/title_activity_input" >
-        </activity>
+            android:label="@string/title_activity_input" />
         <activity
             android:name="com.buma.designapp.ImagePickActivity"
-            android:label="@string/title_activity_image_pick" >
-        </activity>
+            android:label="@string/title_activity_image_pick" />
         <activity
             android:name="com.buma.designapp.MapActivity"
-            android:label="@string/title_activity_map" >
-        </activity>
+            android:label="@string/title_activity_map" />
         <activity
             android:name="com.buma.designapp.BumaActivity"
-            android:label="@string/title_activity_buma" >
-        </activity>
+            android:label="@string/title_activity_buma" />
         <activity
             android:name="com.buma.designapp.LoginActivity"
-            android:label="@string/title_activity_login" >
-        </activity>
+            android:label="@string/title_activity_login" />
         <activity
             android:name="com.buma.designapp.GreenCardActivity"
             android:label="@string/title_activity_green_card"
-            android:uiOptions="splitActionBarWhenNarrow" >
-        </activity>
+            android:uiOptions="splitActionBarWhenNarrow" />
         <activity
             android:name="com.buma.designapp.ListGreenCard"
-            android:label="@string/title_activity_list_green_card" >
-        </activity>
+            android:label="@string/title_activity_list_green_card" />
         <activity
             android:name="com.buma.designapp.TabGreenCard"
-            android:label="@string/title_activity_tab_green_card" >
-        </activity>
+            android:label="@string/title_activity_tab_green_card" />
         <activity
             android:name="com.buma.designapp.GreenCardDetailActivity"
             android:label="@string/title_activity_green_card_detail" >
@@ -88,12 +77,10 @@
         </activity>
         <activity
             android:name="com.buma.designapp.TabGoldenRules"
-            android:label="@string/title_activity_activity_tab_golden_rules" >
-        </activity>
+            android:label="@string/title_activity_activity_tab_golden_rules" />
         <activity
             android:name="com.buma.designapp.GoldenRules"
-            android:label="@string/title_activity_golden_rules" >
-        </activity>
+            android:label="@string/title_activity_golden_rules" />
         <activity
             android:name="com.buma.designapp.HomeGoldenRules"
             android:label="@string/title_activity_home_golden_rules" >
@@ -103,8 +90,7 @@
         </activity>
         <activity
             android:name="com.buma.designapp.GoldenRulesListPattern"
-            android:label="@string/title_activity_golden_rules_list_pattern" >
-        </activity>
+            android:label="@string/title_activity_golden_rules_list_pattern" />
         <activity
             android:name="com.buma.designapp.GoldenRulesMeetView"
             android:label="@string/title_activity_golden_rules_meet_view" >
@@ -128,21 +114,17 @@
         </activity>
         <activity
             android:name="com.buma.designapp.GoldenRulesMainActivity"
-            android:label="@string/title_activity_golden_rules_main" >
-        </activity>
+            android:label="@string/title_activity_golden_rules_main" />
         <activity
             android:name="com.buma.designapp.GoldenRulesWeekly"
-            android:label="@string/title_activity_golden_rules_weekly" >
-        </activity>
+            android:label="@string/title_activity_golden_rules_weekly" />
         <activity
             android:name="com.buma.designapp.GoldenRulesMonthly"
-            android:label="@string/title_activity_golden_rules_monthly" >
-        </activity>
+            android:label="@string/title_activity_golden_rules_monthly" />
         <activity
             android:name="com.buma.designapp.GoldenRulesMeetViewFillData"
             android:label="@string/title_activity_golden_rules_meet_view_fill_data"
-            android:uiOptions="splitActionBarWhenNarrow" >
-        </activity>
+            android:uiOptions="splitActionBarWhenNarrow" />
     </application>
 
 </manifest>
