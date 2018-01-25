@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+    <menuitem>
+        <employeeid>1</employeeid>
+        <name>Surya Atmadjaya</name>
+        <position>PLANT Superintendent</position>
+        <photo>surya</photo>
+    </menuitem>
+    <menuitem>
+        <employeeid>2</employeeid>
+        <name>Aris Slamet Santoso</name>
+        <position>PLANT Superintendent</position>
+        <photo>aris</photo>
+    </menuitem>
+    <menuitem>
+        <employeeid>2</employeeid>
+        <name>Hermansyah</name>
+        <position>IT Superintendent</position>
+        <photo>herman</photo>
+    </menuitem>
+    <menuitem>
+        <employeeid>3</employeeid>
+        <name>Riska Wulandari</name>
+        <position>SHE Superintendent</position>
+        <photo>riska</photo>
+    </menuitem>
+    <menuitem>
+        <employeeid>4</employeeid>
+        <name>Alifia Cahyaningrum</name>
+        <position>BUC Superintendent</position>
+        <photo>alifia</photo>
+    </menuitem>
+    <menuitem>
+        <employeeid>5</employeeid>
+        <name>Agus Haryono</name>
+        <position>TAX Superintendent</position>
+        <photo>agus</photo>
+    </menuitem>
+</Menu>

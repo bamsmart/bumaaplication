@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="8px">
+
+    <TextView
+        android:id="@+id/txplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tangga HO"
+        android:textColor="#040404"
+        android:textSize="13dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/txplace"
+        android:text="[Reported]"
+        android:textColor="#E74539"
+        android:textSize="9dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:layout_toRightOf="@id/txstatus"
+        android:gravity="right"
+        android:text="26/11/1990 14:26"
+        android:textColor="#10bcc9"
+        android:textSize="9dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txplace"
+        android:layout_marginTop="0dp"
+        android:text="Tangga terlalu menurun kebawah , berpotensi membuat terjatuh para pengguna."
+        android:textColor="#343434"
+        android:textSize="10dip" />
+
+</RelativeLayout>

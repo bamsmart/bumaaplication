@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/ic_device_access_camera"
+        android:showAsAction="always"
+        android:title="Camera" />
+    <item
+        android:id="@+id/action_gallery"
+        android:icon="@drawable/ic_content_picture"
+        android:showAsAction="always"
+        android:title="Gallery" />
+
+    <!-- Reset -->
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:title="Reset" />
+
+    <!-- List Data -->
+    <item
+        android:id="@+id/action_list_data"
+        android:icon="@drawable/ic_collections_view_as_list"
+        android:showAsAction="always"
+        android:title="List Data" />
+
+</menu>

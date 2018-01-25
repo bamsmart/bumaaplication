@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoldenRulesMeetViewDetail">
+
+    <TextView
+        android:id="@+id/GrTvWelcomeDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="Welcome, "
+        android:textSize="16dip"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/GrTvUserDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/GrTvWelcomeDetail"
+        android:text="Bambang Shines "
+        android:textColor="#5a9ed6"
+        android:textSize="16dip"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/GrTvDeskripsiDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GrTvWelcomeDetail"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="10dip"
+        android:text="Hari ini hari Selasa 30 Oktober 2013 , anda diharapkan bertemu dengan : "
+        android:textSize="14dip"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@+id/Gr_detail_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/GrTvDeskripsiDetail"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/gr_lst_photo"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/no_image" />
+
+    </LinearLayout>
+
+    <!-- Fullname-->
+    <TextView
+        android:id="@+id/gr_lst_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Gr_detail_thumbnail"
+        android:layout_toRightOf="@+id/Gr_detail_thumbnail"
+        android:text="Dyana Schwan"
+        android:textColor="#CE5910"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Position-->
+    <TextView
+        android:id="@+id/gr_lst_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_lst_fullname"
+        android:layout_marginTop="0dip"
+        android:layout_toRightOf="@+id/Gr_detail_thumbnail"
+        android:text="FIN Superintendent"
+        android:textColor="#000000"
+        android:textSize="14dip"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        style="@style/GenericProgressBackGround"
+        android:layout_below="@+id/gr_lst_position">
+
+        <ProgressBar style="@style/GenericProgressnidicator" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/gr_user_list_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gr_detail_thumbnail"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+
+        android:paddingBottom="10dip"></ListView>
+
+</RelativeLayout>

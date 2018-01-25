@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    android:background="@drawable/bg_btn_help"
+    android:paddingBottom="10dip">
+
+    <LinearLayout
+        android:id="@+id/header_guidance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="0dip">
+
+        <TextView
+            android:id="@+id/gr_lst_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text=""
+            android:textColor="#c65910"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dip"
+            android:layout_marginTop="1dip"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/action_closed"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_action_closed" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/icon_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header_guidance"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/gr_lst_checkbox"
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:layout_marginBottom="0dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/goldenrules" />
+    </LinearLayout>
+
+    <!-- Tools  -->
+    <TextView
+        android:id="@+id/gr_lst_topik_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon_checkbox"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/icon_checkbox"
+        android:text="Tools/Forms"
+        android:textColor="#c65910"
+        android:textSize="14dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Deskripsi Tools/Forms -->
+    <TextView
+        android:id="@+id/gr_lst_desc_tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon_checkbox"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:text="IKH ,WO, Serah terima patok"
+        android:textColor="#000010"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/icon_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gr_lst_desc_tools"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/gr_lst_img_list"
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:layout_marginBottom="0dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/goldenrules" />
+    </LinearLayout>
+
+    <!-- How to Check -->
+    <TextView
+        android:id="@+id/gr_lst_howtocheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon_list"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/icon_list"
+        android:text="How to Check / Inspection"
+        android:textColor="#c65910"
+        android:textSize="14dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Descripsi How to Check -->
+    <TextView
+        android:id="@+id/gr_lst_desc_howtocheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_lst_howtocheck"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="0dip"
+        android:text="IKH (BCM), WO-general services dan patok serah terima dilapangan, alokasi digger sesuai boundary plan"
+        android:textColor="#000010"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+</RelativeLayout>

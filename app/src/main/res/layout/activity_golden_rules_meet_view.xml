@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoldenRulesMeetView">
+
+    <TextView
+        android:id="@+id/GrTvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="Welcome, "
+        android:textSize="16dip"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/GrTvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/GrTvWelcome"
+        android:text="Bambang Shines "
+        android:textColor="#5a9ed6"
+        android:textSize="16dip"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/GrTvDeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GrTvWelcome"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="10dip"
+        android:text="Hari ini hari Selasa 30 Oktober 2013 , anda diharapkan bertemu dengan : "
+        android:textSize="14dip"
+        android:textStyle="normal" />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        style="@style/GenericProgressBackGround"
+        android:layout_below="@+id/GrTvDeskripsi">
+
+        <ProgressBar style="@style/GenericProgressnidicator" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/gr_user_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GrTvDeskripsi"
+        android:layout_marginTop="10dip"></ListView>
+
+</RelativeLayout>

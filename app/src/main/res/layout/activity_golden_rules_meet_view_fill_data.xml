@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoldenRulesMeetViewFillData">
+
+    <TextView
+        android:id="@+id/GrTvWelcomeDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="Welcome, "
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/GrTvUserFillData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/GrTvWelcomeDetail"
+        android:text="Bambang Shines "
+        android:textColor="#5a9ed6"
+        android:textSize="16sp"
+        android:textStyle="italic|bold" />
+    <!-- Topik -->
+    <TextView
+        android:id="@+id/gr_lst_topik_fill_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GrTvWelcomeDetail"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:text="Topik diskusi RM Cost"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        style="@style/GenericProgressBackGround"
+        android:layout_below="@+id/gr_lst_topik_fill_data">
+
+        <ProgressBar style="@style/GenericProgressnidicator" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/gr_user_list_view_fill_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_lst_topik_fill_data"
+        android:layout_marginTop="10dip">
+
+    </ListView>
+</RelativeLayout>

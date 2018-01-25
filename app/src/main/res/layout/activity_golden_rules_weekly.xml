@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GoldenRulesWeekly">
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        style="@style/GenericProgressBackGround"
+        android:layout_toStartOf="@+id/gr_lst_weekly">
+
+        <ProgressBar style="@style/GenericProgressnidicator" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/gr_lst_weekly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:focusable="true"
+        android:listSelector="@drawable/list_selector"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/weekly_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_lst_weekly"
+        android:background="#000"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gr_bottom_weekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:paddingLeft="5dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

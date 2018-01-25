@@ -1,0 +1,255 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/panelScroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".GreenCardActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/pnTanggal"
+            android:layout_width="fill_parent"
+            android:layout_height="25dip"
+            android:background="#212021"
+            android:textAlignment="center">
+
+            <ImageView
+                android:id="@+id/ic_device_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_device_access_time" />
+
+            <TextView
+                android:id="@+id/textTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/ic_device_time"
+                android:text="Tanggal"
+                android:textColor="#FFFFFF"
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textspace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/textTanggal"
+                android:text=":"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/textspace"
+                android:text="........................."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/panelField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pnTanggal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvtempat_bahaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tempat_bahaya"
+                android:textColor="#3986BD"
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <RadioButton
+                android:id="@+id/rbtempat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onChoosePlaceClicked"
+                android:text="Isikan Manual"
+                android:textColor="#E79A00"
+                android:textSize="13dip" />
+
+            <EditText
+                android:id="@+id/txtempat_bahaya"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:ems="50"
+                android:hint="............."
+                android:inputType="textMultiLine"
+                android:onClick="setRbManualChecked"
+                android:textColor="#52595A"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:id="@+id/rbtempat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onChoosePlaceClicked"
+                android:text="Pilih Tempat"
+                android:textColor="#E79A00"
+                android:textSize="13dip" />
+
+            <Spinner
+                android:id="@+id/ddltempatbahaya"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp" />
+
+
+            <TextView
+                android:id="@+id/tvjeniskondisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/jenis_bahaya"
+                android:textColor="#3986BD"
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Spinner
+                android:id="@+id/ddljeniskondisi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvrincian_bahaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/rincian_bahaya"
+                android:textColor="#3986BD"
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/txrincian_bahaya"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="50"
+                android:hint="............."
+                android:inputType="textMultiLine"
+                android:textColor="#52595A"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tvrincian_tindakan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/rincian_tindakan"
+                android:textColor="#3986BD"
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/txrincian_tindakan"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:ems="50"
+                android:hint="............."
+                android:inputType="textMultiLine"
+                android:textColor="#52595A"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tvkode_bahaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/kode_bahaya"
+                android:textColor="#3986BD"
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvkode_bahaya"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbAA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="AA" />
+
+                <RadioButton
+                    android:id="@+id/rbA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="A" />
+
+                <RadioButton
+                    android:id="@+id/rbB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/radioButton2"
+                    android:layout_alignBottom="@+id/radioButton2"
+                    android:layout_alignLeft="@+id/imageView1"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="B" />
+
+                <RadioButton
+                    android:id="@+id/rbC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/radioButton2"
+                    android:layout_alignBottom="@+id/radioButton2"
+                    android:layout_alignLeft="@+id/imageView1"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="C" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/panelImage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:textDirection="ltr">
+
+                <ImageView
+                    android:id="@+id/ImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

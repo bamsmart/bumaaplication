@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    tools:context=".GoldenRulesListPattern">
+
+    <LinearLayout
+        android:id="@+id/icon_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/gr_lst_checkbox"
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:src="@drawable/play" />
+
+
+    </LinearLayout>
+
+    <!-- Fullname-->
+    <TextView
+        android:id="@+id/gr_lst_topik_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon_checkbox"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:layout_toRightOf="@+id/icon_checkbox"
+        android:text="WICOPE Implementation"
+        android:textColor="#0886bd"
+        android:textSize="14dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+</RelativeLayout>

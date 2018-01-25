@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GoldenRulesListPattern">
+
+    <LinearLayout
+        android:id="@+id/sub_detail_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:orientation="horizontal"
+        android:padding="1dip">
+
+        <CheckBox
+            android:id="@+id/gr_lst_sub_cb_fill_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="% Ach boundary compliance"
+            android:textColor="#0886bd"
+            android:textSize="14dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/gr_lst_fill_kpi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_detail_thumbnail"
+        android:layout_marginLeft="5dip"
+        android:ems="16"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="type here ... "
+        android:inputType="textMultiLine"
+        android:textSize="15sp"
+        android:textStyle="normal"></EditText>
+</RelativeLayout>

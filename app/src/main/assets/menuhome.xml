@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+    <menuitem>
+        <id>1</id>
+        <menu>Green Card</menu>
+        <icon>greencard</icon>
+    </menuitem>
+    <menuitem>
+        <id>2</id>
+        <menu>Golden Rules</menu>
+        <icon>goldenrules</icon>
+    </menuitem>
+    <menuitem>
+        <id>3</id>
+        <menu>Coaching Monitoring</menu>
+        <icon>coaching</icon>
+    </menuitem>
+</Menu>

@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HomeGoldenRules">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/image_bg"
+        android:orientation="horizontal"
+        android:padding="0dip">
+
+        <ImageView
+            android:id="@+id/gr_list_image"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:src="@drawable/no_image" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="10dip"
+        android:paddingTop="0dip">
+
+        <ProgressBar style="@style/GenericProgressnidicator" />
+    </RelativeLayout>
+
+    <!-- Full Name -->
+
+    <TextView
+        android:id="@+id/gr_text_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:paddingRight="10dip"
+        android:paddingTop="0dip"
+        android:text=" "
+        android:textColor="#5A9ED6"
+        android:textSize="18dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Position -->
+
+    <TextView
+        android:id="@+id/gr_text_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_text_fullname"
+        android:layout_marginTop="5dip"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:paddingRight="10dip"
+        android:text=" "
+        android:textColor="#A5A6A5"
+        android:textSize="18dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <!-- Jobsite -->
+
+    <TextView
+        android:id="@+id/gr_text_jobsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_text_position"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:paddingRight="10dip"
+        android:paddingTop="0dip"
+        android:text=" "
+        android:textColor="#040404"
+        android:textSize="16dip"
+        android:textStyle="normal|italic"
+        android:typeface="sans" />
+
+    <!-- Next Field -->
+
+    <TextView
+        android:id="@+id/nextfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_text_jobsite"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:paddingRight="10dip"
+        android:paddingTop="0dip"
+        android:text=" "
+        android:textColor="#040404"
+        android:textSize="12dip"
+        android:textStyle="normal|italic"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/activities"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="30dip"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <Button
+            android:id="@+id/gr_btn_activities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_activities_selector"
+            android:text="ACTIVITIES"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/escalation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activities"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <Button
+            android:id="@+id/gr_btn_escalation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_escalation"
+            android:text="ESCALATION"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/escalation"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="50dip"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <Button
+            android:id="@+id/gr_btn_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_help"
+            android:text="HELP" />
+    </LinearLayout>
+
+</RelativeLayout>

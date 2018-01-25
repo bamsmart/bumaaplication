@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoldenRulesMeetViewSubDetail">
+
+    <TextView
+        android:id="@+id/GrTvWelcomeDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="Welcome, "
+        android:textSize="16dip"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/GrTvUserSubDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/GrTvWelcomeDetail"
+        android:text="Bambang Shines "
+        android:textColor="#5a9ed6"
+        android:textSize="16dip"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/GrTvDeskripsiSubDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GrTvWelcomeDetail"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="10dip"
+        android:text="Hari ini hari Selasa 30 Oktober 2013 , anda diharapkan bertemu dengan : "
+        android:textSize="14dip"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@+id/Gr_sub_detail_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/GrTvDeskripsiSubDetail"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/gr_lst_photo_sub_detail"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/no_image" />
+    </LinearLayout>
+
+    <!-- Fullname -->
+
+    <TextView
+        android:id="@+id/gr_lst_fullname_sub_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Gr_sub_detail_thumbnail"
+        android:layout_toRightOf="@+id/Gr_sub_detail_thumbnail"
+        android:text="Dyana Schwan"
+        android:textColor="#CE5910"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Position -->
+
+    <TextView
+        android:id="@+id/gr_lst_position_sub_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_lst_fullname_sub_detail"
+        android:layout_marginTop="0dip"
+        android:layout_toRightOf="@+id/Gr_sub_detail_thumbnail"
+        android:text="FIN Superintendent"
+        android:textColor="#000000"
+        android:textSize="14dip"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <!-- Topik -->
+
+    <TextView
+        android:id="@+id/gr_lst_topik_sub_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gr_sub_detail_thumbnail"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:text="Topik diskusi RM Cost"
+        android:textColor="#000000"
+        android:textSize="14dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        style="@style/GenericProgressBackGround"
+        android:layout_below="@+id/gr_lst_topik_sub_detail">
+
+        <ProgressBar style="@style/GenericProgressnidicator" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/gr_user_list_view_sub_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_lst_topik_sub_detail"
+        android:layout_marginTop="10dip"></ListView>
+
+</RelativeLayout>

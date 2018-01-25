@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:orientation="horizontal">
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="#E72429"
+        android:padding="0dip">
+
+        <ImageView
+            android:id="@+id/weekly_side_color"
+            android:layout_width="15dip"
+            android:layout_height="50dip"
+            android:background="#E72429" />
+
+    </LinearLayout>
+
+    <!-- Title Of Activities-->
+    <TextView
+        android:id="@+id/gr_title_activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Semua Aktivitas Selesai "
+        android:textColor="#040404"
+        android:textSize="14dip"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/gr_btn_tanggal"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/bg_btn_dates"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="12" />
+
+</RelativeLayout>

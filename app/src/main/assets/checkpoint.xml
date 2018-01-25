@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+    <menuitem>
+        <day>Monday</day>
+        <dept>ENG-BD</dept>
+        <checklist>
+            <listitem>Mine Plan Compliance (Yearly,3MRP,Weekly, Daily)</listitem>
+            <listitem>Drilling & Blasting (Recovery,PF,Fragmentasi,Digability,Inventory)</listitem>
+            <listitem>Production GainLoss Review</listitem>
+        </checklist>
+        ,
+    </menuitem>
+    <menuitem>
+        <day>Tuesday</day>
+        <dept>PRO-TC</dept>
+        <checklist>
+            <listitem>Volume Production (OB/Coal)</listitem>
+            <listitem>Utilization (main/support)</listitem>
+            <listitem>Productivity Equipment (Loader, hauler, drilling,pumping,etc)</listitem>
+        </checklist>
+    </menuitem>
+    <menuitem>
+        <day>Wednesday</day>
+        <dept>HR-IER-GS-CCF</dept>
+        <checklist>
+            <listitem>MPP Compliance</listitem>
+            <listitem>Progress Recruitment, PK , Exit, Interview</listitem>
+            <listitem>Training Progress</listitem>
+        </checklist>
+    </menuitem>
+    <menuitem>
+        <day>Thursday</day>
+        <dept>FIN-BUC-ACC-TAX-IT</dept>
+        <checklist>
+            <listitem>Cash Count & Laporan kas proyek</listitem>
+            <listitem>Cash Cost achievement & Outlook Scorecard(Deviasi Budget)</listitem>
+            <listitem>Kas gantung dan kasbon karyawan</listitem>
+        </checklist>
+    </menuitem>
+    <menuitem>
+        <day>Friday</day>
+        <dept>PLANT</dept>
+        <checklist>
+            <listitem>WICOPE Implementation " Compliance & Quality</listitem>
+            <listitem>RM Cost</listitem>
+            <listitem>Physical Availabilty</listitem>
+        </checklist>
+    </menuitem>
+    <menuitem>
+        <day>Saturday</day>
+        <dept>LOGISTICS</dept>
+        <checklist>
+            <listitem>Wharehouse Operation Implementation</listitem>
+            <listitem>Fuel Handling Implemetation</listitem>
+            <listitem>OTIF Index</listitem>
+        </checklist>
+    </menuitem>
+    <menuitem>
+        <day>Sunday</day>
+        <dept>SHE & BE-PMO</dept>
+        <checklist>
+            <listitem>Implementasi B'SAFE, JSA, PTS</listitem>
+            <listitem>Tindak lanjut temuan audit SHE dan laporan statistik SHE</listitem>
+            <listitem>Pelaksanaan inspeksi dan observasi</listitem>
+        </checklist>
+    </menuitem>
+</Menu>

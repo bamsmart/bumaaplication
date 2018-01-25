@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+    <!-- Baris 1 -->
+    <menuitem>
+        <listitem1>Mine Plan Compliance(Yearly,3MRP Weekly,Daily)</listitem1>
+        <listitem2>Volume Production (OB/Coal)</listitem2>
+        <listitem3>MPP Compliance</listitem3>
+        <listitem4>Cash Count dan Laporan Kas Proyek</listitem4>
+        <listitem5>WICOPE Implementation</listitem5>
+        <listitem6>Wharehouse Operation Implementation</listitem6>
+        <listitem7>Implementasi B'SAFE, JSA, PTS</listitem7>
+    </menuitem>
+    <!-- Baris 2 -->
+    <menuitem>
+        <listitem1>Drilling dan Blasting(Recovery,PF,Fragmentasi,Digability,Inventory)</listitem1>
+        <listitem2>Utilization (main/support)</listitem2>
+        <listitem3>Progress Recruitment,PK,Exit,Interview</listitem3>
+        <listitem4>Cash Cost achievement dan Outlook Scorecard(Deviasi Budget)</listitem4>
+        <listitem5>RM Cost</listitem5>
+        <listitem6>Fuel Handling Implemetation</listitem6>
+        <listitem7>Tindak lanjut temuan audit SHE dan laporan statistik SHE</listitem7>
+    </menuitem>
+    <!-- Baris 3 -->
+    <menuitem>
+        <listitem1>Production Gainloss Review</listitem1>
+        <listitem2>Road maintenance dan dewatering</listitem2>
+        <listitem3>Training Progress</listitem3>
+        <listitem4>Kas gantung dan kasbon karyawan</listitem4>
+        <listitem5>Physical Availabilty</listitem5>
+        <listitem6>OTIF Index</listitem6>
+        <listitem7>Pelaksanaan inspeksi dan observasi</listitem7>
+    </menuitem>
+    <!-- Baris 4 -->
+    <menuitem>
+        <listitem1>Monitoring AFCA ,BA, Reconciliation dan Fuel Comsumtion Analysis</listitem1>
+        <listitem2>Standart Parameter Achievement(front,road dan disposal)</listitem2>
+        <listitem3>Attendance Ratio</listitem3>
+        <listitem4>PST (perspetual Stock Taking)</listitem4>
+        <listitem5>MTTR</listitem5>
+        <listitem6>Order Parts Composition - VHS</listitem6>
+        <listitem7>Pelaksanaan Training dan Program sosialisasi bimbingan</listitem7>
+    </menuitem>
+    <!-- Baris 5 -->
+    <menuitem>
+        <listitem1>MCC - Timely Reporting</listitem1>
+        <listitem2>Operatot Attendance Ratio,Versatality,Mandays Training</listitem2>
+        <listitem3>Komunikasi bipartit,PKB,SP,PHK,dan klain Jamsostek</listitem3>
+        <listitem4>Hutang pajak (Pph,PPN)</listitem4>
+        <listitem5>MTBS</listitem5>
+        <listitem6>Parts Discrepancy</listitem6>
+        <listitem7>Trend kesehatan karyawan dan Medical Claim dan Follow Up</listitem7>
+    </menuitem>
+</Menu>   	    			

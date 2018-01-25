@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+    <menuitem>
+        <id>1</id>
+        <menu>User</menu>
+        <icon>user</icon>
+    </menuitem>
+    <menuitem>
+        <id>2</id>
+        <menu>Input Data</menu>
+        <icon>input</icon>
+    </menuitem>
+    <menuitem>
+        <id>3</id>
+        <menu>Activity</menu>
+        <icon>activity</icon>
+    </menuitem>
+    <menuitem>
+        <id>4</id>
+        <menu>Buma</menu>
+        <icon>buma</icon>
+    </menuitem>
+    <menuitem>
+        <id>5</id>
+        <menu>Map</menu>
+        <icon>googlemaps</icon>
+    </menuitem>
+    <menuitem>
+        <id>6</id>
+        <menu>Settings</menu>
+        <icon>settings</icon>
+    </menuitem>
+    <menuitem>
+        <id>7</id>
+        <menu>Online Activity</menu>
+        <icon>onlenactivity</icon>
+    </menuitem>
+</Menu>

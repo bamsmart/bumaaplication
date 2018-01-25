@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    tools:context=".GoldenRulesListPattern">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+
+        android:orientation="horizontal"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/gr_lst_photo"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/no_image" />
+
+    </LinearLayout>
+
+    <!-- Fullname-->
+    <TextView
+        android:id="@+id/gr_lst_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Dyana Schwan"
+        android:textColor="#CE5910"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Position-->
+    <TextView
+        android:id="@+id/gr_lst_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gr_lst_fullname"
+        android:layout_marginTop="0dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="FIN Superintendent"
+        android:textColor="#000000"
+        android:textSize="14dip"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+</RelativeLayout>
